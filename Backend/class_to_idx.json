@@ -1,0 +1,20 @@
+{
+  "Potato___Early_blight": 0,
+  "Potato___Late_blight": 1,
+  "Potato___healthy": 2,
+  "Unknown": 3,
+  "diseased cotton leaf": 4,
+  "diseased cotton plant": 5,
+  "fresh cotton leaf": 6,
+  "fresh cotton plant": 7,
+  "kinnow_black-spot": 8,
+  "kinnow_citrus-canker": 9,
+  "mustard_BELUM SIAP": 10,
+  "mustard_SIAP PANEN": 11,
+  "rice_Bacterial leaf blight": 12,
+  "rice_Brown spot": 13,
+  "rice_Leaf smut": 14,
+  "wheat_healthy": 15,
+  "wheat_septoria": 16,
+  "wheat_stripe_rust": 17
+}

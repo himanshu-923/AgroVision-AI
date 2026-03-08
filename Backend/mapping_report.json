@@ -1,0 +1,6 @@
+{
+  "num_classes": 18,
+  "all_classes_have_disease_info": true,
+  "missing_classes": [],
+  "source_order": "classes.txt"
+}

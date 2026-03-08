@@ -1,0 +1,18 @@
+Potato___Early_blight
+Potato___Late_blight
+Potato___healthy
+Unknown
+diseased cotton leaf
+diseased cotton plant
+fresh cotton leaf
+fresh cotton plant
+kinnow_black-spot
+kinnow_citrus-canker
+mustard_BELUM SIAP
+mustard_SIAP PANEN
+rice_Bacterial leaf blight
+rice_Brown spot
+rice_Leaf smut
+wheat_healthy
+wheat_septoria
+wheat_stripe_rust
