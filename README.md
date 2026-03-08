@@ -1,7 +1,7 @@
 # 🌾 Agro Vision AI
 
 <div align="center">
-  <img src="frontend/public/agro-logo.png" alt="Agro Vision AI Logo" width="120" />
+  <img src="Agro-Vision-UI\client\public\agro-logo.jpg"" alt="Agro Vision AI Logo" width="120" />
   <h3>AI‑Powered Crop Disease Assistant for Farmers</h3>
   <p><i>Empowering illiterate and newbie farmers with instant, multilingual disease diagnosis and voice guidance</i></p>
 </div>
