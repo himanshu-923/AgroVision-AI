@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-display: 'Outfit', sans-serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+
+    /* Light Mode Colors based on requirements */
+    --background: 45 29% 93%; /* #F4F1E8 */
+    --card: 0 0% 100%; /* White */
+    --foreground: 120 38% 16%; /* #1A3A1A */
+    
+    --primary: 123 46% 34%; /* #2E7D32 */
+    --primary-foreground: 0 0% 100%;
+    
+    --accent: 123 43% 56%; /* #66BB6A */
+    --accent-foreground: 0 0% 100%;
+    
+    --muted: 120 20% 90%;
+    --muted-foreground: 120 15% 45%;
+
+    --border: 120 20% 85%;
+    --ring: 123 46% 34%;
+    
+    --radius: 1rem;
+  }
+
+  .dark {
+    /* Dark Mode Colors based on requirements */
+    --background: 136 27% 8%; /* #0F1A12 */
+    --card: 142 24% 13%; /* #1A2A20 */
+    --foreground: 125 46% 94%; /* #E8F5E9 */
+    
+    --primary: 123 43% 56%; /* #66BB6A */
+    --primary-foreground: 136 27% 8%;
+    
+    --accent: 123 46% 34%; /* #2E7D32 */
+    --accent-foreground: 125 46% 94%;
+    
+    --muted: 142 20% 20%;
+    --muted-foreground: 125 20% 70%;
+
+    --border: 142 20% 22%;
+    --ring: 123 43% 56%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+
+  /* Hide print elements except the report */
+  @media print {
+    body * {
+      visibility: hidden;
+    }
+    #printable-report, #printable-report * {
+      visibility: visible;
+    }
+    #printable-report {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+    }
+    .no-print {
+      display: none !important;
+    }
+  }
+}
+
+@layer utilities {
+  .text-wheat {
+    color: #D4A373;
+  }
+  .glass-panel {
+    @apply bg-card/80 backdrop-blur-lg border border-border/50 shadow-[0_8px_30px_rgb(0,0,0,0.04)];
+  }
+  .dark .glass-panel {
+    @apply shadow-[0_8px_30px_rgb(0,0,0,0.2)];
+  }
+}
