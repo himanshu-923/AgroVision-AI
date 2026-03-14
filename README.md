@@ -150,6 +150,7 @@ uvicorn api_server:app --host 0.0.0.0 --port 8000 --reload
 The backend will start at http://localhost:8000.
 Swagger docs are available at http://localhost:8000/docs.
 
+
 3️⃣ Frontend Setup
 Open a new terminal and navigate to the frontend folder:
 
